@@ -4,17 +4,18 @@
 
 ![docker-desktop-version](assets/docker-desktop-version.png)
 
-##### Kubernetes v1.18.8
+##### Kubernetes v1.19.7
 
 ```
-docker/desktop-kubernetes:kubernetes-v1.18.8-cni-v0.8.5-critools-v1.17.0
-docker/desktop-storage-provisioner:v1.1
-docker/desktop-vpnkit-controller:v1.0
-k8s.gcr.io/coredns:1.6.7
-k8s.gcr.io/etcd:3.4.3-0
-k8s.gcr.io/kube-apiserver:v1.18.8
-k8s.gcr.io/kube-controller-manager:v1.18.8
-k8s.gcr.io/kube-proxy:v1.18.8
-k8s.gcr.io/kube-scheduler:v1.18.8
-k8s.gcr.io/pause:3.2
+docker/desktop-kuberneteskubernetes-v1.19.7-cni-v0.8.5-critools-v1.17.0-debian
+docker/desktop-storage-provisionerv1.1
+docker/desktop-vpnkit-controllerv1.0
+k8s.gcr.io/coredns1.7.0
+k8s.gcr.io/etcd3.4.13-0
+k8s.gcr.io/kube-apiserverv1.19.7
+k8s.gcr.io/kube-controller-managerv1.19.7
+k8s.gcr.io/kube-proxyv1.19.7
+k8s.gcr.io/kube-schedulerv1.19.7
+k8s.gcr.io/pause3.2
+quay.io/kubernetes-ingress-controller/nginx-ingress-controller0.26.1
 ```
